@@ -1,0 +1,301 @@
+.dmain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0px;
+  padding-top: 0px;
+  width: 100%;
+}
+
+.uppersec {
+  flex: 2;
+  display: flex;
+  gap: 10px;
+  overflow: none;
+  width: 100%;
+  /* background-color: red; */
+}
+.leftuppersec {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.rightuppersec {
+  flex: 1;
+  background-color: #f5f8ff;
+  height: max-content;
+  padding: 10px 20px;
+  /* width: 200px; */
+  height: max-content;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.upperNav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bebebe;
+}
+
+.rightNavGrp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.notification {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.prf {
+  background-color: #ffb031;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+}
+
+.barNav {
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftBarnav {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.graphHolder1 {
+  position: relative;
+}
+
+.graphHolder1::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -18px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #08c0d8;
+}
+.graphHolder2 {
+  position: relative;
+}
+
+.graphHolder2::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -18px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #5c3fb9;
+}
+
+.dropdown {
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  padding: 7px 5px;
+  border-radius: 6px;
+  border: 1px solid #b8b8b8;
+}
+
+.middlesec {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.paymentMethod {
+  display: inline-flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.paymentMethod::-webkit-scrollbar {
+  height: 0.25rem;
+}
+
+.paymentMethod::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.paymentMethod::-webkit-scrollbar-thumb {
+  background: #5c3fb9;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: max-content;
+  padding: 10px 20px;
+  background: #f1f5fe;
+  border-radius: 20px;
+  position: relative;
+}
+
+.topCardArea {
+  position: absolute;
+  top: 10px;
+  margin: 10px 0px;
+  width: 90%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: space; */
+}
+
+.clogo {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 20px;
+  margin: 50px 70px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+}
+
+.breadCumer {
+  background-color: #d9e5f7;
+  color: #688dc2;
+  padding: 5px 10px;
+  border-radius: 100px;
+  font-weight: 800;
+}
+
+.bottomsec {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+}
+
+.leftbottomsec{
+    flex: 3;
+    width: 100%;
+}
+
+.rightbottomsec{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tableHeading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableHeadingFilter{
+    display: flex;
+    gap: 20px;
+}
+
+.tableHeadingFilter h4{
+    color: #afafaf;
+    font-weight: 300;
+}
+
+.active{
+    color: #303030 !important;
+}
+
+.incexpCard{
+  margin: 5px 0px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.expenseIcon{
+  background-color: #0AC0D6;
+  padding: 15px;
+  border-radius: 25px;
+}
+.incomeIcon{
+  background-color: #4524A7;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.incexprs{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.incexprs h2{
+  font-size: 1.4rem;
+}
+.incexprs h4{
+  font-size: 0.8rem;
+  color: #afafaf;
+  font-weight: 500;
+}
+
+table{
+  width:100%;
+  margin: 10px 0px ;
+}
+
+td{
+  padding: 10px 0px;
+}
+th{
+  padding: 10px 0px;
+  text-align: left;
+  color: #bebebe;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.inc{
+  font-weight: 900;
+  color: #5FBABB;
+}
+
+.cc{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ccic{
+  display: block;
+  aspect-ratio: 2px;
+  width: 20px;
+  padding: 10px;  
+  border-radius: 100px;
+}
+
+
+.m{
+  background: #FCEFCF;
+}
+
+.p{
+  background: #E1EEF8;
+}
+
+.q{
+  background-color: #FEEED1;
+}
+
+.w{
+  background: #E4EDFC;
+}
