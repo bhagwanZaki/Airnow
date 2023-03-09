@@ -26,6 +26,8 @@
   background-color: #f5f8ff;
   height: max-content;
   padding: 10px 20px;
+  margin-left: 30px;
+  margin-right: 80px;
   /* width: 200px; */
   height: max-content;
   border-radius: 0px 0px 50px 50px;
@@ -210,6 +212,9 @@
     font-weight: 300;
 }
 
+.last{
+  text-align: end
+}
 .active{
     color: #303030 !important;
 }
